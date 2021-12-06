@@ -25,3 +25,51 @@
 h1{
   font-family: var(--heading);
 }
+
+h2{
+  font-family: var(--heading);
+}
+
+p{
+  font-family: var(--text);
+}
+
+.introduction{
+  background-color: var(--darkgreen);
+}
+
+.hollyjolly{
+  margin-top: -260px;
+  font-size: 70px;
+  margin-left: 10%;
+  color: var(--white);
+}
+
+  /* responsiv footer*/
+@media only screen and (min-width: 375px) {
+
+.ballindex{
+  height: 400px;
+}
+
+}
+
+/*Media rules for iphone og stående ipad - de 768px er bredden på en stående ipad
+dermed vil det vise sig på telefonen som på en stående ipad, da jeg har skrevt max-width*/
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/*Media rules for liggende ipad - de 769px for ipad, da telefonen skelner lige her omkring dette breakpoint -
+så dette er mellemstadiet mellem telefon og stående ipad til web*/
+@media only screen and (min-width: 769px) {
+
+
+}
+
+/*Media rules for web de 1366px er bredden på en liggede ipad pro, som næsten er på str. med en browser*/
+@media only screen and (min-width: 1366px) {
+
+
+}

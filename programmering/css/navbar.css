@@ -104,13 +104,14 @@ label{
   height: 70px;
   }
 
-  .vestfyen{
+.vestfyen{
    height: 60px;
   }
 
-  .ball{
+.ball{
    height: 60px;
   }
+
 }
 
 /*Media rules for iphone og stående ipad - de 768px er bredden på en stående ipad
@@ -141,7 +142,9 @@ dermed vil det vise sig på telefonen som på en stående ipad, da jeg har skrev
   display: none;
   position: relative;
   margin-top: 20%;
-}
+  background-color: var(--white);
+    }
+
 
 .menu a{
   display: block;
