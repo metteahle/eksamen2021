@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+/*font-family: 'Racing Sans One', cursive;*/
+
+:root {
+  /* farver */
+  --darkred: #5e0106;
+  --red: #b4081a;   /* navbar skrift farve + burger nogle overskrifter*/
+  --lightred: #c63141; /* baggrundsfarve*/
+  --darkgreen: #1b722f; /* baggrundsfarve*/
+  --burntorange: #ae520b;/* baggrundsfarve*/
+  --white: #FFFFFF;
+
+  /* fonte */
+  --overskrift:'Racing Sans One', cursive;
+  --broedtekst: 'Arial Narrow';
+}
+
+
+  html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
