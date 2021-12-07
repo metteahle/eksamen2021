@@ -162,13 +162,17 @@ dermed vil det vise sig på telefonen som på en stående ipad, da jeg har skrev
 så dette er mellemstadiet mellem telefon og stående ipad til web*/
 @media only screen and (min-width: 769px) {
 
-  .menu a{
-    margin: 0 10px;
+.menu a{
+  margin: 0 10px;
   }
 
-  .menu{
-    margin: -80px 30px 0 0;
-    font-size: 20px;
+.menu{
+  margin: -80px 30px 0 0;
+  font-size: 20px;
+}
+
+.headimage{
+  margin-top: -4%;
 }
 
 }

@@ -24,52 +24,156 @@
 
 h1{
   font-family: var(--heading);
+  color: var(--white);
+  font-size: 35px;
 }
 
 h2{
   font-family: var(--heading);
+  color: var(--white);
+  font-size: 25px;
 }
 
 p{
   font-family: var(--text);
+  color: var(--white);
+  font-size: 20px;
 }
 
+  /* baggrundsfarve div og grøn del af indexsiden */
 .introduction{
   background-color: var(--darkgreen);
+  height: 900px;
 }
 
 .hollyjolly{
   margin-top: -260px;
   font-size: 70px;
-  margin-left: 10%;
+  margin-left: 3%;
   color: var(--white);
 }
 
-  /* responsiv footer*/
-@media only screen and (min-width: 375px) {
 
+.indextext{
+  position: absolute;
+  left: 2%;
+  width: 50%;
+}
+
+.newedition{
+  font-size: 30px;
+}
+
+.halfhalf{
+  width: 100%;
+  margin: 1%;
+  margin-left: 15%;
+}
+
+  /* baggrundsfarve div og Rød del af indexsiden */
+.jollycolaindex{
+  background-color: var(--lightred);
+  height: 800px;
+}
+
+.headjolly{
+  margin: 0;
+  padding-top: 5%;
+}
+
+.indextextred{
+  margin-left: 2%;
+}
+
+  /* mediarules iphone 6/7/8 plus*/
+@media only screen and (max-width: 414px) {
+
+  /* grøn del af indexsiden */
 .ballindex{
   height: 400px;
 }
 
+.indextext{
+  margin-top: 5%;
 }
 
-/*Media rules for iphone og stående ipad - de 768px er bredden på en stående ipad
-dermed vil det vise sig på telefonen som på en stående ipad, da jeg har skrevt max-width*/
-@media only screen and (max-width: 768px) {
+.halfhalf{
+  width: 85%;
+}
+
+/* rød del af indexsiden */
+
+.indexwebtext{
+display: none;
+}
+
+}
+
+
+/*Media rules for stående ipad*/
+@media only screen and (min-width: 415px) {
+
+  /* grøn del af indexsiden */
+.introduction{
+  height: 1300px;
+}
+
+.ballindex{
+  height: 600px;
+}
+
+.hollyjolly{
+  width: 70%;
+  font-size: 90px;
+  margin-left: 20%;
+  margin-top: -350px;
+}
+
+.indextext{
+  width: 60%;
+  margin-top: 20%;
+}
+
+.halfhalf{
+  width: 70%;
+  margin-left: 30%;
+}
+
+  /* rød del af indexsiden */
+.indexwebtext{
+  display: none;
+}
 
 
 }
 
-/*Media rules for liggende ipad - de 769px for ipad, da telefonen skelner lige her omkring dette breakpoint -
-så dette er mellemstadiet mellem telefon og stående ipad til web*/
-@media only screen and (min-width: 769px) {
+/*Media rules for liggende ipad og web*/
+@media only screen and (min-width: 1025px) {
 
-
+  /* grøn del af indexsiden */
+.introduction{
+  display: flex;
+  height: 700px;
 }
 
-/*Media rules for web de 1366px er bredden på en liggede ipad pro, som næsten er på str. med en browser*/
-@media only screen and (min-width: 1366px) {
+.indextext{
+    margin-left: 780px;
+    width: 20%;
+    line-height: 40px;
+    margin-top: 200px;
+  }
 
+.halfhalf{
+    width: 60%;
+    margin-left: 30%;
+    margin-top: 15%;
+  }
+
+
+.hollyjolly{
+    margin-top: -360px;
+    font-size: 90px;
+    width: 70%;
+  }
 
 }
