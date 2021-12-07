@@ -112,7 +112,7 @@ p{
   /* baggrundsfarve div og orange/3 del af indexsiden */
 .jollytinindex{
     background-color: var(--burntorange);
-    height: 800px;
+    height: 100%;
   }
 
 .tintext{
@@ -123,6 +123,28 @@ p{
 .tinheading{
   margin: 0;
   padding-top: 5%;
+}
+
+.colatin{
+  width: 90%;
+  float: right;
+  margin-top: -670px;
+  margin-right: -5%;
+}
+
+.scanindex{
+  margin-left: 2%;
+}
+
+.scantext{
+  width: 50%;
+}
+
+.scanwin{
+  width: 50%;
+  float: right;
+  margin: 1%;
+  margin-top: -70%;
 }
 
   /* mediarules iphone 6/7/8 plus*/
@@ -144,6 +166,15 @@ p{
 /* rød del af indexsiden */
 .indexwebtext{
 display: none;
+}
+
+/* orange del af indexsiden */
+.tintextweb{
+  display: none;
+}
+
+.tintextweb2{
+  display: none;
 }
 
 }
@@ -176,7 +207,7 @@ display: none;
 .halfhalf{
   width: 60%;
   margin-left: 40%;
-  margin-top: -10%;
+  margin-top: -15%;
 }
 
 /* rød del af indexsiden */
@@ -194,6 +225,29 @@ margin-top: -650px;
 width: 30%;
 margin-top: -10%;
 margin-right: 40%;
+}
+
+/* orange del af indexsiden */
+.textmobil{
+  display: none;
+}
+
+.tintextweb{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.colatin{
+  margin-top: -590px;
+}
+
+.scanwin{
+  width: 45%;
+  margin-top: -25%;
+}
+
+.jollytinindex{
+  height: 70%;
 }
 
 }
@@ -239,9 +293,28 @@ margin-right: 40%;
   margin-right: 35%;
   }
 
-
 .scraptext{
   width: 15%;
 }
+
+/* orange del af indexsiden */
+.colatin{
+  width: 80%;
+  margin-top: -590px;
+}
+
+.scanwin{
+  width: 25%;
+  margin-top: -15%;
+  margin-right: 49%;
+}
+
+.scantext{
+  width: 25%;
+}
+
+.jollytinindex{
+  height: 80%;
+  }
 
 }
