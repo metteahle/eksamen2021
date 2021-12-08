@@ -40,3 +40,176 @@ p{
   font-size: 20px;
   line-height: 30px;
 }
+
+
+  /* første del af forhandlere siden */
+
+.firstretailers{
+  background-color: var(--lightred);
+  height: 750px;
+  margin-top: -5%;
+}
+
+.retailerstext{
+  padding-top: 10%;
+  margin-left: 2%;
+}
+
+.fourballsretailers{
+  float: right;
+  width: 40%;
+  margin-top: -30%;
+  margin-right: 2%;
+}
+
+.doyouremember{
+  font-size: 25px;
+  margin-left: 2%;
+  width: 50%;
+}
+
+.phonetext{
+  margin-left: 2%;
+  width: 50%;
+}
+
+.textnexttophone{
+  margin-top: 70%;
+}
+
+.iphone{
+  width: 50%;
+  float: right;
+  margin-top: -80%;
+}
+
+.postsection{
+  background-color: var(--burntorange);
+  height: 490px;
+  margin-top: -5%;
+}
+
+.retailerssearch{
+  display: flex;
+}
+
+.insertzipcode{
+  border-radius: 100px;
+  background-color: var(--white);
+  border: 1px solid #000000;
+  width: 30%;
+  color: #000000;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.insertzipcode:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.zipcodetext{
+  margin-left: 2%;
+  padding-top: 10%
+}
+
+.searchbutton{
+  border-radius: 100px;
+  background-color: var(--white);
+  border: 1px solid #000000;
+  width: 10%;
+  color: #000000;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.searchbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.searchbutton{
+  text-decoration: none;
+}
+
+.maps{
+  margin-left: 2%;
+}
+
+
+/* mediarules iphone 6/7/8 plus*/
+@media only screen and (max-width: 414px) {
+
+/* Første del*/
+
+}
+
+
+/*Media rules for stående ipad*/
+@media only screen and (min-width: 415px) {
+
+/* Første del*/
+.firstretailers{
+  height: 1400px;
+}
+
+.retailerstext{
+  padding-top: 20%;
+  font-size: 60px;
+}
+
+.fourballsretailers{
+  margin-top: -30%;
+}
+
+.phonetext{
+  width: 45%;
+}
+
+.textnexttophone{
+  margin-top: 75%;
+}
+
+.iphone{
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 2%;
+}
+
+/* Anden del*/
+.maps{
+  width: 95%;
+  height: 70%;
+}
+
+.postsection{
+  height: 750px;
+}
+
+}
+
+/*Media rules for liggende ipad og web*/
+@media only screen and (min-width: 1025px) {
+
+/* Første del*/
+.firstretailers{
+  height: 750px;
+}
+
+.retailerstext{
+  padding-top: 10%;
+  text-align: center;
+}
+
+.fourballsretailers{
+  float: left;
+  width: 20%;
+  margin-top: -15%;
+  margin-left: 2%;
+}
+
+
+/* anden del*/
+.postsection{
+  background-color: var(--lightred);
+}
+
+}
