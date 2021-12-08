@@ -262,11 +262,15 @@ margin-right: 40%;
 }
 
 .indextext{
-    margin-left: 930px;
+    margin-left: 920px;
     width: 20%;
     line-height: 40px;
     margin-top: 250px;
   }
+
+.twoways{
+  width: 50%;
+}
 
 .halfhalf{
     margin-left: 30%;
