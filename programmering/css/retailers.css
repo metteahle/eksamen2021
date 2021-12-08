@@ -138,8 +138,10 @@ p{
 /* mediarules iphone 6/7/8 plus*/
 @media only screen and (max-width: 414px) {
 
-/* Første del*/
-
+/* Anden del*/
+  .retailersweb{
+    display: none;
+  }
 }
 
 
@@ -175,6 +177,10 @@ p{
 }
 
 /* Anden del*/
+.retailersweb{
+  display: none;
+}
+
 .maps{
   width: 95%;
   height: 70%;
@@ -184,32 +190,65 @@ p{
   height: 750px;
 }
 
+
 }
 
 /*Media rules for liggende ipad og web*/
 @media only screen and (min-width: 1025px) {
 
 /* Første del*/
-.firstretailers{
-  height: 750px;
+.foriphoneandipad{
+  display: none;
 }
 
-.retailerstext{
+.retailersweb{
+  background-color: var(--lightred);
+  height: 600px;
+  display: flex;
+  margin-left: -15%;
   padding-top: 10%;
-  text-align: center;
 }
 
 .fourballsretailers{
-  float: left;
-  width: 20%;
-  margin-top: -15%;
-  margin-left: 2%;
+  width: 60%;
 }
 
+.iphone{
+  width: 70%;
+  padding-top: 40%;
+}
 
-/* anden del*/
-.postsection{
-  background-color: var(--lightred);
+.doyouremember{
+  margin-top: 200px;
+  font-size: 25px;
+  width: 80%;
+}
+
+.retailerstext{
+  margin-top: -40%;
+}
+
+.buttonsretailers{
+  display: flex;
+  margin-top: -5%;
+  margin-left: 10%;
+}
+
+.phonetext{
+  width: 85%;
+  font-size: 25px;
+  margin-left: 10%;
+}
+
+.zipcodetext{
+  padding-top: 0%;
+  margin-left: 10%;
+}
+
+.maps{
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
 }
 
 }
