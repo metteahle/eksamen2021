@@ -40,3 +40,149 @@ p{
   font-size: 20px;
   line-height: 30px;
 }
+
+/*Konkurrence side 1 del*/
+.backgroundcontest{
+  background-color: var(--burntorange);
+  height: 600px;
+  margin-top: -5%;
+}
+
+.buttoncontest{
+  border-radius: 100px;
+  background-color: var(--white);
+  border: 1px solid #000000;
+  width: 30%;
+  color: #000000;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.buttoncontest:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttononcontestpage{
+  text-decoration: none;
+}
+
+.spinwheel{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.contestheading{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.firstcontestwheel{
+  margin-left: 2%;
+}
+
+.textfirstcontest{
+  margin-left: 4%;
+}
+
+/*Konkurrence side 2 del*/
+.secondcontest{
+  background-color: var(--lightred);
+  height: 650px;
+  margin-top: -5%;
+}
+
+.bottlebehind{
+  width: 50%;
+  padding-top: 5%;
+  float: right;
+}
+
+.scrapandwintext{
+  font-size: 20px;
+}
+
+.textsecondcontest{
+  margin-left: 2%;
+  padding-top: 10%;
+}
+
+
+/*Konkurrence side 3 del*/
+
+.thirdcontest{
+  background-color: var(--darkgreen);
+  height: 700px;
+  margin-top: -5%;
+}
+
+.whatnow{
+  margin-left: 2%;
+  padding-top: 10%;
+}
+
+.textthirdcontest{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.insertinformation{
+  border-radius: 100px;
+  background-color: var(--white);
+  border: 1px solid #000000;
+  width: 70%;
+  height: 30px;
+  color: #000000;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.insertinformation:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.informationwin{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.capnumber{
+  display: flex;
+}
+
+.name{
+  display: flex;
+  justify-content: space-between;
+}
+
+.number{
+  display: flex;
+}
+
+.city{
+  display: flex;
+}
+
+/* mediarules iphone 6/7/8 plus*/
+@media only screen and (max-width: 414px) {
+
+/* Første del*/
+.contestballs{
+  display: none;
+}
+
+}
+
+
+/*Media rules for stående ipad*/
+@media only screen and (min-width: 415px) {
+
+
+}
+
+/*Media rules for liggende ipad og web*/
+@media only screen and (min-width: 1025px) {
+
+/* Første del*/
+
+
+}
