@@ -172,10 +172,30 @@ p{
 
 }
 
-
 /*Media rules for stående ipad*/
 @media only screen and (min-width: 415px) {
 
+/* Første del*/
+.contestballs{
+    width: 40%;
+    position: static;
+  }
+
+.backgroundcontest{
+  height: 1000px;
+  margin-top: 5%;
+}
+
+.contestheading{
+  position: relative;
+  margin-top: -300px;
+}
+
+/* anden del*/
+.bottlebehind{
+  width: 25%;
+  margin-right: 10%;
+}
 
 }
 
@@ -183,6 +203,59 @@ p{
 @media only screen and (min-width: 1025px) {
 
 /* Første del*/
+.backgroundcontest{
+  height: 900px;
+  margin-top: -1%;
+}
 
+.contestballs{
+  width: 20%;
+  margin-left: 40%;
+}
+
+.contestheading{
+  font-size: 50px;
+  margin-top: -25%;
+}
+
+.spinwheel{
+  width: 350px;
+}
+
+.firstcontestwheel{
+  width: 30%;
+  position: absolute;
+}
+
+/* anden del*/
+.textsecondcontest{
+  margin-top: -850px;
+  margin-left: 65%;
+  width: 20%;
+}
+
+.secondcontest{
+  background-color: var(--burntorange);
+  height: 800px;
+}
+
+.bottlebehind{
+  width: 13%;
+  margin-right: 2%;
+}
+
+/* tredje del*/
+.thirdcontest{
+  height: 700px;
+  background-color: var(--lightred);
+}
+
+.maybewintext{
+  width: 40%;
+}
+
+.insertinformation{
+  width: 40%;
+}
 
 }
