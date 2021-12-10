@@ -58,6 +58,21 @@ p{
   width: 85%;
   float: right;
   margin-top: -35%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 40%;
+  }
+
+  to {
+    width: 70%;
+  }
 }
 
 .firstparttext{
