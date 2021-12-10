@@ -27,6 +27,7 @@
   margin-left: -5%;
   margin-top: -1%;
   position: absolute;
+  z-index: 1;
 }
 
 .logo{
@@ -34,6 +35,7 @@
  position: relative;
  padding: 1%;
  display: block;
+ z-index: 1;
 
 }
 
@@ -48,6 +50,7 @@
   font-size: 25px;
   font-family: var(--heading);
   position: relative;
+  z-index: 1;
 }
 
 .menu a{
@@ -63,6 +66,7 @@ label{
   display: none;
   width: 26px;
   color: var(--red);
+  z-index: 1;
 }
 
 #toggle{
