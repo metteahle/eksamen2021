@@ -22,6 +22,7 @@
     margin: 0;
   }
 
+  /* Generelle styles for mine h1, h2 og p tekst */
 h1{
   font-family: var(--heading);
   color: var(--white);
